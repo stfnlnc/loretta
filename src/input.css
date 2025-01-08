@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'PP Fraktion Mono';
+	src: url('./fonts/PPFraktionMono-Regular.otf') format('opentype');
+}
+
+@layer base {
+	body {
+		font-family: 'PP Fraktion Mono', sans-serif;
+		overscroll-behavior: none;
+		overflow-x: hidden;
+		@apply text-neutral-gray-950;
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-family: 'PP Fraktion Mono';
+
+		font-style: normal;
+		font-weight: 400;
+		line-height: 110%; /* 2.40625rem */
+		text-transform: uppercase;
+	}
+
+	h1 {
+		font-size: 2.1875rem;
+	}
+	h2 {
+		font-size: 1.8125rem;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-family: 'PP Fraktion Mono';
+		font-size: 1.25rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 130%; /* 1.625rem */
+	}
+
+	.btn {
+		@apply cursor-pointer w-fit py-spacing-2 border-b border-neutral-gray-950 text-neutral-gray-950 flex flex-row gap-spacing-10 items-center uppercase select-none hover:opacity-70 transition-opacity duration-300;
+		font-family: 'PP Fraktion Mono';
+		font-size: 1.0625rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 130%; /* 1.38125rem */
+	}
+
+	.btn-light {
+		@apply border-brand-old-lace-50 text-brand-old-lace-50;
+	}
+
+	@media screen and (min-width: 1024px) {
+		.horizontal {
+			overscroll-behavior: none;
+			width: calc(800% - 28rem);
+			height: 100%;
+			display: flex;
+			flex-wrap: nowrap;
+		}
+	}
+}
