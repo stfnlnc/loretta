@@ -10,38 +10,38 @@
 
 <body>
     <div id="menu"
-        class="fixed top-0 right-0 z-50 flex flex-row items-start justify-between w-full transition-transform duration-500 cursor-pointer lg:border-l lg:w-auto lg:h-screen lg:py-spacing-14 lg:px-spacing-3 py-spacing-4 px-spacing-6 text-brand-old-lace-50 bg-brand-camarone-800 lg:border-brand-old-lace-50">
+        class="fixed top-0 right-0 z-50 flex flex-row items-start justify-between w-full transition-transform duration-500 cursor-pointer lg:border-l lg:w-auto lg:h-[100lvh] lg:py-spacing-14 lg:px-spacing-3 py-spacing-4 px-spacing-6 text-brand-old-lace-50 bg-brand-camarone-800 lg:border-brand-old-lace-50">
         <div class="text-sm uppercase lg:hidden" href="">Loretta</div>
         <div class="text-sm uppercase lg:rotate-90" href="">Menu</div>
     </div>
     <div id="dropdown"
-        class="fixed top-0 left-0 z-40 flex flex-col items-center justify-center w-screen h-screen translate-x-full border-l bg-brand-camarone-800 text-brand-old-lace-50 border-brand-old-lace-50">
+        class="fixed top-0 left-0 z-40 flex flex-col items-center justify-center w-screen h-[100lvh] translate-x-full border-l bg-brand-camarone-800 text-brand-old-lace-50 border-brand-old-lace-50">
         <div id="close"
             class="absolute top-0 left-0 flex flex-row items-center justify-end w-screen border-b cursor-pointer px-spacing-6 lg:px-spacing-14 py-spacing-6 border-brand-old-lace-50 bg-brand-camarone-800">
-            <div class="text-sm uppercase" href="">[X] Close</div>
+            <div class="text-sm uppercase">[X] Close</div>
         </div>
         <div class="flex flex-col w-full">
             <img class="w-full px-spacing-6 lg:px-spacing-14" src="./images/logo.svg" alt="">
             <span class="w-full border-b border-brand-old-lace-50 pt-spacing-4 mb-spacing-4"></span>
-            <div class="grid grid-cols-2 px-spacing-6 lg:px-spacing-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 px-spacing-6 lg:px-spacing-14">
                 <p class="w-full">[ADRESSE]</p>
                 <p class="w-full">456, RUE DE LA CÔTE / BIARRITZ / FRANCE</p>
             </div>
             <span class="w-full border-b border-brand-old-lace-50 pt-spacing-4 mb-spacing-4"></span>
-            <div class="grid grid-cols-2 px-spacing-6 lg:px-spacing-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 px-spacing-6 lg:px-spacing-14">
                 <p class="w-full">[HORAIRES]</p>
                 <p class="w-full">OUVERT TOUS LES JOURS / DE 8H À 15H30</p>
             </div>
             <span class="w-full border-b border-brand-old-lace-50 pt-spacing-4 mb-spacing-4"></span>
-            <div class="grid grid-cols-2 px-spacing-6 lg:px-spacing-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 px-spacing-6 lg:px-spacing-14">
                 <p class="w-full">[CONTACT]</p>
                 <p class="w-full">HELLO@STUDIOKHI.COM / 07 65 88 96 83</p>
             </div>
             <span class="w-full border-b border-brand-old-lace-50 pt-spacing-4 mb-spacing-4"></span>
-            <div class="grid grid-cols-2 px-spacing-6 lg:px-spacing-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 px-spacing-6 lg:px-spacing-14">
                 <p class="w-full">[SUIVEZ-NOUS]</p>
-                <p class="w-full"><a href="https://www.instagram.com/studio_khi/">INSTAGRAM</a> / <a
-                        href="https://www.linkedin.com/company/studio-khi">LINKEDIN</a></p>
+                <p class="w-full"><a href="https://www.instagram.com/studio_khi/">INSTAGRAM</a> /
+                    <a href="https://www.linkedin.com/company/studio-khi">LINKEDIN</a></p>
             </div>
         </div>
         <div
@@ -57,8 +57,8 @@
             <p class="text-sm uppercase">Café & Brunch</p>
             <p class="text-sm uppercase">Biarritz</p>
         </div>
-        <section class="relative z-30 w-full h-auto lg:h-screen section lg:w-section bg-brand-camarone-800">
-            <img class="object-cover object-bottom w-full h-screen" src="./images/loretta-hero.jpg" alt="">
+        <section class="relative z-30 w-full h-auto lg:h-[100lvh] section lg:w-section bg-brand-camarone-800">
+            <img class="object-cover object-bottom w-full h-[100lvh]" src="./images/loretta-hero.jpg" alt="">
             <div
                 class="absolute bottom-0 left-0 flex flex-col items-center w-full text-center px-spacing-6 lg:px-spacing-14 py-spacing-10 gap-spacing-32">
                 <div class="flex flex-col items-center gap-spacing-4">
@@ -75,7 +75,7 @@
             </div>
         </section>
         <section
-            class="flex flex-col items-center justify-center w-full h-auto py-spacing-20 lg:py-0 lg:h-screen section lg:w-section bg-brand-old-lace-50">
+            class="flex flex-col items-center justify-center w-full h-auto py-spacing-20 lg:py-0 lg:h-[100lvh] section lg:w-section bg-brand-old-lace-50">
             <div class="flex flex-col w-full">
                 <div
                     class="flex flex-col items-start justify-between w-full gap-spacing-4 lg:items-center lg:flex-row py-spacing-4 px-spacing-6 lg:px-spacing-14">
@@ -104,14 +104,14 @@
             </div>
         </section>
         <section
-            class="flex flex-col w-full h-auto border-l lg:flex-row lg:h-screen section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50 gap-spacing-6">
-            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-screen" src="./images/loretta-coffee.jpg"
+            class="flex flex-col w-full h-auto border-l lg:flex-row lg:h-[100lvh] section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50 gap-spacing-6">
+            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-[100lvh]" src="./images/loretta-coffee.jpg"
                 alt="">
-            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-screen" src="./images/loretta-drinks.jpg"
+            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-[100lvh]" src="./images/loretta-drinks.jpg"
                 alt="">
         </section>
         <section
-            class="flex flex-col items-center justify-center w-full h-auto border-l py-spacing-20 lg:py-0 lg:h-screen section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50">
+            class="flex flex-col items-center justify-center w-full h-auto border-l py-spacing-20 lg:py-0 lg:h-[100lvh] section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50">
             <div class="flex flex-col items-start justify-start w-full">
                 <h3 class="px-spacing-6 lg:px-spacing-14">BOISSONS CHAUDES</h3>
                 <span class="w-full border-b border-neutral-gray-950 pt-spacing-4 mb-spacing-4"></span>
@@ -176,7 +176,7 @@
             </div>
         </section>
         <section
-            class="flex flex-col items-center justify-center w-full h-auto border-l lg:py-0 py-spacing-20 lg:h-screen section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50">
+            class="flex flex-col items-center justify-center w-full h-auto border-l lg:py-0 py-spacing-20 lg:h-[100lvh] section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50">
             <div class="flex flex-col items-start justify-start w-full">
                 <h3 class="px-spacing-6 lg:px-spacing-14">BOISSONS FROIDES</h3>
                 <span class="w-full border-b border-neutral-gray-950 pt-spacing-4 mb-spacing-4"></span>
@@ -228,14 +228,14 @@
             </div>
         </section>
         <section
-            class="flex flex-col w-full h-auto border-l lg:flex-row lg:h-screen section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50 gap-spacing-6">
-            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-screen" src="./images/loretta-brunch.jpg"
+            class="flex flex-col w-full h-auto border-l lg:flex-row lg:h-[100lvh] section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50 gap-spacing-6">
+            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-[100lvh]" src="./images/loretta-brunch.jpg"
                 alt="">
-            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-screen"
+            <img class="object-cover object-center w-full lg:w-1/2 h-96 lg:h-[100lvh]"
                 src="./images/loretta-breakfast.jpg" alt="">
         </section>
         <section
-            class="flex flex-col items-center justify-center w-full h-auto border-l lg:h-screen section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50 py-spacing-20 lg:py-0">
+            class="flex flex-col items-center justify-center w-full h-auto border-l lg:h-[100lvh] section border-neutral-gray-950 lg:w-section bg-brand-old-lace-50 py-spacing-20 lg:py-0">
             <div class="flex flex-col items-start justify-start w-full">
                 <div
                     class="flex flex-col items-start justify-between w-full gap-spacing-4 lg:items-center lg:flex-row px-spacing-6 lg:px-spacing-14">
